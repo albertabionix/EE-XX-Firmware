@@ -15,7 +15,7 @@ This repo holds the firmware for [brief description of team].
 ## Rules for Contributing
 
 1. **Never push directly to `main`.** All changes go through a pull request.
-2. **Create a new branch for your work.** Name it something short and clear, like `yourname/feature-name` (e.g. `tamu/BMS-address-fix`).
+2. **Create a new branch for your work.** Name it something short and clear, like `yourname-feature-name` (e.g. `tamu-BMS-address-fix`).
    ```
    git checkout -b yourname/feature
    ```

@@ -24,7 +24,7 @@ This repo holds the firmware for [brief description of team].
 5. **Get at least 1 approval before merging.** Someone else on the team needs to review your PR first. 
 6. **Don't force-push or delete branches** without checking with the team — this can erase other people's work.
 7. **Keep PRs small and focused.** One feature or fix per PR is easier to review than one giant PR with everything in it.
-8. If you're stuck or confused about something, **ask in the Discord server**!
+8. If you're stuck or confused about something relating to Git or your work, **ask in the Discord server**!
 
 ## The Basics
  

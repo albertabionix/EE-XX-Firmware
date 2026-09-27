@@ -15,9 +15,9 @@ This repo holds the firmware for [brief description of team].
 ## Rules for Contributing
 
 1. **Never push directly to `main`.** All changes go through a pull request.
-2. **Create a new branch for your work.** Name it something short and clear, like `yourname-feature-name` (e.g. `tamu-BMS-address-fix`).
+2. **Create a new branch for your work.** Name it something short and clear, like `yourname-feature` (e.g. `tamu-BMS-address-fix`).
    ```
-   git checkout -b yourname/feature
+   git checkout -b yourname-feature
    ```
 3. **Commit often, with clear messages.** A good commit message says *what* changed and *why*, not just "updated file."
 4. **Open a pull request (PR) when your work is ready.** Describe what you did and why.

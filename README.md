@@ -26,13 +26,49 @@ This repo holds the firmware for [brief description of team].
 7. **Keep PRs small and focused.** One feature or fix per PR is easier to review than one giant PR with everything in it.
 8. If you're stuck or confused about something, **ask in the Discord server**!
 
-## Getting Started
+## The Basics
+ 
+New to git? Follow these steps to get set up. If you get stuck at any point, just ask an EE or SWE lead for help on the Discord server.
+ 
+### 0. Create a GitHub account
+Sign up at [github.com](https://github.com) if you haven't already.
+ 
+### 1. Install Git
+Download it from [git-scm.com](https://git-scm.com) and install with the default options. On Windows this also installs **Git Bash**, a terminal you can run git commands in. On Mac, you can also just type `git --version` in Terminal — it'll prompt you to install if it's missing.
 
+### 2. Set your git identity
+Open a terminal (or Git Bash) and run:
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+This labels your future commits so teammates know who made them.
+ 
+### 3. Check repo access
+Ask an electrical or software lead to add your GitHub username as a collaborator. You won't be able to work until you're added.
+ 
+### 4. Set up authentication
+GitHub no longer accepts passwords for git operations. Easiest fix: install [GitHub Desktop](https://desktop.github.com) or the [GitHub CLI](https://cli.github.com) and sign in through the browser prompt — it handles authentication for you.
+ 
+### 5. Clone the repo
 ```bash
 git clone <repo-url>
 cd EE-XX-Firmware
-git checkout -b yourname/your-branch-name
 ```
+Copy `<repo-url>` from the green **Code** button on the GitHub repo page.
+ 
+### 6. Create your branch and start working
+```bash
+git checkout -b yourname/your-feature-name
+```
+Make your changes, then:
+```bash
+git add .
+git commit -m "short description of what you did"
+git push -u origin yourname/your-feature-name
+```
+Open a pull request on GitHub for review and merge. One of the leads will review it and approve your work; then you can merge it.
 
-Make your changes, commit them, push your branch, and open a PR on GitHub.
+## TLDR :D
+Once you have Git/Github all set up. Create a new branch, then make your changes, commit them, push your branch, and open a PR on GitHub.
 
